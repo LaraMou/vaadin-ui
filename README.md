@@ -1,7 +1,8 @@
 # vaadin-keycloak
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+This project is the UI which connect with the backend project: spring-boot-backend.
+The goal of this is to manage Keycloak autentication.
+The port to run is : 8080.
 
 ## Running the application
 The project is a standard Maven project. To run it from the command line,

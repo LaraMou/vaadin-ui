@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import com.example.application.views.admin.AdminView;
+import com.example.application.views.months.MonthsView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.ComponentUtil;
 import com.vaadin.flow.component.Text;
@@ -121,7 +123,8 @@ public class MainLayout extends AppLayout {
     private List<Tab> createMenuItems() {
         MenuItemInfo[] menuItems = new MenuItemInfo[]{ //
                 new MenuItemInfo("Hello World", "la la-globe", HelloWorldView.class), //
-
+                new MenuItemInfo("Months", "la la-globe", MonthsView.class),
+                new MenuItemInfo("Admin", "la la-globe", AdminView.class),
                 new MenuItemInfo("About", "la la-file", AboutView.class), //
 
         };
